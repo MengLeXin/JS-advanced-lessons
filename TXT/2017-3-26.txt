@@ -1,0 +1,2 @@
+函数对象对应的类型是Function（类似于数组的Array,日期的Date）
+var a  - new Array(5);创建了一个长度为5的数组
