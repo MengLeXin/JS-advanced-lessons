@@ -16,3 +16,6 @@ var f2 = function () {
 };
 f2();
 console.log(y);//若函数内有var此行报错，若函数内没有var则此行输出全局变量y值
+
+//***var y = "局部";
+//***y = "全局";
