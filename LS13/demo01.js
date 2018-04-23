@@ -3,11 +3,11 @@ console.log(typeof Math);
 console.log(typeof Date);
 console.log(typeof Function);
 console.log(typeof JSON);
-VM422:1 function
-VM422:2 object
-VM422:3 function
-VM422:4 function
-VM422:5 object
+//VM422:1 function
+//VM422:2 object
+//VM422:3 function
+//VM422:4 function
+//VM422:5 object
 
 console.log(Object instanceof Function);
 console.log(Object instanceof Object);
