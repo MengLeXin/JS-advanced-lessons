@@ -11,7 +11,7 @@ function thisTest2(){
     delete this.b;
     this.c = "新添加属性";
 }
-thisTest2();
+thisTest2();//
 console.log(a,c);
 
 //对象方法中的this
@@ -50,3 +50,6 @@ var me = {
 };
 bird.fly(5,6);
 bird.fly.call(me,7,8);
+
+
+//////
