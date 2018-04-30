@@ -22,7 +22,7 @@ Person.prototype.showName = function(){
     console.log(this.name);
 };
 function Student(name,age,id){
-    Person.call(this,name,age);
+    Person.call(this,name,age);//
     this.id = id;
 }
 Student.prototype = Object.create(Person.prototype);
